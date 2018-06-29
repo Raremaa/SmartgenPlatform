@@ -1,0 +1,146 @@
+body{
+	background-color:#f8f8ff;
+}
+
+.product-ziti{
+	font-size:28px;
+	font-family:微软雅黑;
+	text-align:center;
+	margin-top:20px;
+}
+.xd1{
+	width:12%;
+	height:0px;
+	border:none;
+	border-top:1px solid #a1a1a1;
+	align:center;
+	display:inline-block;
+	margin-right:30px;
+}
+.xd2{
+	width:12%;
+	height:0px;
+	border:none;
+	border-top:1px solid #a1a1a1;
+	align:center;
+	display:inline-block;
+	margin-left:30px;
+}
+.zs1{
+	border:1 solid red;
+	width:300px;
+	height:400px;	
+	float:left;
+}
+.all-zs{
+	width:400px;
+	height:400px;
+	float:left;
+	margin-left:40px;
+	margin-top:40px;
+}
+.zs2{
+	border:1 solid red;
+	width:300px;
+	height:400px;	
+	float:left;
+}
+.zs3{
+	border:1px solid #F5F5F5;
+	width:220px;
+	font-size:16px;
+	height:150px;
+	text-align:center;	
+}
+.zs4{
+	border:1px solid #F5F5F5;
+	width:220px;
+	margin-left:240px;
+	margin-top:-150px;
+	font-size:16px;
+	height:150px;
+	text-align:center;
+}
+.zs5{
+	border:1px solid #F5F5F5;
+	width:220px;height:150px;
+	font-size:16px;
+	font-family:微软雅黑;
+	text-align:center;
+	margin-top:20px;
+}
+.zs6{
+	border:1px solid #F5F5F5;
+	width:220px;
+	height:150px;
+	font-size:16px;
+	font-family:微软雅黑;
+	text-align:center;
+	margin-left:240px;
+	margin-top:-150px;
+}
+.project1{
+	width:270px;
+	height:300px;
+	float:left
+}
+.project2{
+	width:270px;
+	height:300px;
+	float:left;
+	margin-left:20px;
+}
+.Creproject_title{
+	font-size:20px;
+	font-family:微软雅黑;
+	text-align:center;
+}
+.Inproject_title{
+	font-size:20px;
+	font-family:微软雅黑;
+	text-align:center;
+}
+.ax_default{
+	margin-top:30px;
+	text-align:center;
+	float:left;
+	border:0px solid gray;
+	width:567px;
+}
+.bj1{
+	border:0px solid red;
+	width:560px;
+	height:300px;
+    background-image:url(imgage/1.jpg);
+	text-align:center;
+	color:white;
+	font-family:楷体;
+	font-size:30px;
+	float:left;
+}
+.bj2{
+	border:0px solid red;
+	width:560px;
+	height:300px;
+	margin-left:20px;
+	background-image:url(imgage/7.jpg);
+	text-align:center;
+	color:white;
+	font-family:楷体;
+	font-size:30px;
+	float:left;
+}
+#time{
+	font-size:50px;
+	font-family:微软雅黑;
+	display:block;
+	margin-top:60px;
+}
+#UserheadPortrait{
+	width:100px;
+	height:100px;
+	border-radius:50px;
+	border:0px solid red;
+	margin-left:220px;
+	margin-top:70px;
+}

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name></display-name>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>creativeProjectGet</servlet-name>
+    <servlet-class>sp.CreativeProjectAction.creativeProjectGet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userAdd</servlet-name>
+    <servlet-class>sp.UserAction.userAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userLoginGet</servlet-name>
+    <servlet-class>sp.UserAction.userLoginGet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userRegistAdd</servlet-name>
+    <servlet-class>sp.UserAction.userRegistAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>creativeProjectAdd</servlet-name>
+    <servlet-class>sp.CreativeProjectAction.creativeProjectAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>interestingProjectAdd</servlet-name>
+    <servlet-class>sp.InterestingProjectAction.interestingProjectAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>creProUserGet</servlet-name>
+    <servlet-class>sp.CreativeProjectAction.creProUserGet</servlet-class>
+  </servlet>
+ 
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>companyAdd</servlet-name>
+    <servlet-class>sp.CompanyAction.companyAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>companyDelete</servlet-name>
+    <servlet-class>sp.CompanyAction.companyDelete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>companyGet</servlet-name>
+    <servlet-class>sp.CompanyAction.companyGet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>companyUpdate</servlet-name>
+    <servlet-class>sp.CompanyAction.companyUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>creativeProjectDelete</servlet-name>
+    <servlet-class>sp.CreativeProjectAction.creativeProjectDelete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>creativeProjectUpdate</servlet-name>
+    <servlet-class>sp.CreativeProjectAction.creativeProjectUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>expertAdd</servlet-name>
+    <servlet-class>sp.ExpertAction.expertAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>expertDelete</servlet-name>
+    <servlet-class>sp.ExpertAction.expertDelete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>expertUpdate</servlet-name>
+    <servlet-class>sp.ExpertAction.expertUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>interestingProjectDelete</servlet-name>
+    <servlet-class>sp.InterestingProjectAction.interestingProjectDelete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>interestingProjectGet</servlet-name>
+    <servlet-class>sp.InterestingProjectAction.interestingProjectGet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>interestingProjectUpdate</servlet-name>
+    <servlet-class>sp.InterestingProjectAction.interestingProjectUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userDelete</servlet-name>
+    <servlet-class>sp.UserAction.userDelete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userUpdate</servlet-name>
+    <servlet-class>sp.UserAction.userUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userGet</servlet-name>
+    <servlet-class>sp.UserAction.userGet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>expertGet</servlet-name>
+    <servlet-class>sp.ExpertAction.expertGet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <servlet-mapping>
+    <servlet-name>creativeProjectGet</servlet-name>
+    <url-pattern>/creativeProjectGet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userAdd</servlet-name>
+    <url-pattern>/userAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userLoginGet</servlet-name>
+    <url-pattern>/userLoginGet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userRegistAdd</servlet-name>
+    <url-pattern>/userRegistAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>creativeProjectAdd</servlet-name>
+    <url-pattern>/creativeProjectAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>interestingProjectAdd</servlet-name>
+    <url-pattern>/interestingProjectAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>creProUserGet</servlet-name>
+    <url-pattern>/creProUserGet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>companyAdd</servlet-name>
+    <url-pattern>/companyAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>companyDelete</servlet-name>
+    <url-pattern>/companyDelete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>companyGet</servlet-name>
+    <url-pattern>/companyGet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>companyUpdate</servlet-name>
+    <url-pattern>/companyUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>creativeProjectDelete</servlet-name>
+    <url-pattern>/creativeProjectDelete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>creativeProjectUpdate</servlet-name>
+    <url-pattern>/creativeProjectUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>expertAdd</servlet-name>
+    <url-pattern>/expertAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>expertDelete</servlet-name>
+    <url-pattern>/expertDelete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>expertUpdate</servlet-name>
+    <url-pattern>/expertUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>interestingProjectDelete</servlet-name>
+    <url-pattern>/interestingProjectDelete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>interestingProjectGet</servlet-name>
+    <url-pattern>/interestingProjectGet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>interestingProjectUpdate</servlet-name>
+    <url-pattern>/interestingProjectUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userDelete</servlet-name>
+    <url-pattern>/userDelete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userUpdate</servlet-name>
+    <url-pattern>/userUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userGet</servlet-name>
+    <url-pattern>/userGet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>expertGet</servlet-name>
+    <url-pattern>/expertGet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+  
+   <filter>
+  	<filter-name>AdminFilter</filter-name>
+  	<filter-class>sp.filter.AdminFilter</filter-class>
+  	<init-param>
+  		<param-name>exceptPage</param-name>
+  		<param-value>/admin/jsp/dologin.jsp;</param-value>
+  	</init-param>
+  	<init-param>
+  		<param-name>encoding</param-name>
+  		<param-value>UTF-8</param-value>
+  	</init-param>
+  </filter>
+  
+  <filter-mapping>
+  	<filter-name>AdminFilter</filter-name>
+  	<url-pattern>/admin/*</url-pattern>
+  </filter-mapping>
+  
+  
+  
+   <filter>
+  	<filter-name>ExpertFilter</filter-name>
+  	<filter-class>sp.filter.ExpertFilter</filter-class>
+  	<init-param>
+  		<param-name>exceptPage</param-name>
+  		<param-value>/expert/jsp/signup.jsp;</param-value>
+  	</init-param>
+  	<init-param>
+  		<param-name>encoding</param-name>
+  		<param-value>UTF-8</param-value>
+  	</init-param>
+  </filter>
+  
+  <filter-mapping>
+  	<filter-name>ExpertFilter</filter-name>
+  	<url-pattern>/expert/*</url-pattern>
+  </filter-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+</web-app>

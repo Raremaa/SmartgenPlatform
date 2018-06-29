@@ -1,0 +1,118 @@
+body{
+	background-color:#f8f8ff;
+}
+.first{
+	border:0px solid #999999;
+	margin-top:120px;
+	background-color:white;
+}
+#Creproject_title{
+	font-size:32px;
+	font-family:微软雅黑;
+}
+.first-main{
+	border:1px solid blue;
+	width:100px;
+	border-radius:50px;
+	font-size:20px;
+	text-align:center;
+	margin-left:830px;
+	margin-top:-35px;
+}
+.publicTime{
+	margin-left:960px;
+	margin-top:-32px;
+}
+.xd{
+	width:100%;
+	height:0px;
+	border:none;
+	border-top:1px solid #f8f8ff;
+	align:center;
+	display:inline-block;
+	margin-top:-10px;
+}
+.xd1{
+	width:100%;
+	height:0px;
+	border:none;
+	border-top:1px solid #333333;
+	align:center;
+	display:inline-block;
+	margin-top:-10px;
+}
+.mete{
+	font-size:30px;
+	color:#009999;
+	font-family:微软雅黑;
+	margin-top:240px;
+	margin-left:20px;
+	border:1px solid #f2f2f2;
+	width:130px;
+	height:80px;
+	text-align:center;
+	line-height:80px;
+}
+.boult{
+	font-size:40px;
+	display:block;
+	margin-left:150px;
+	margin-top:-65px;
+}
+.pdtime{
+	font-size:24px;
+	margin-left:200px;
+	margin-top:-100px;
+}
+.result{
+	font-size:24px;
+	margin-left:200px;
+	margin-top:10px;
+}
+.suggestion{
+	font-size:24px;
+	margin-left:200px;
+	margin-top:10px;
+}
+.publish{
+	font-size:30px;
+	margin-left:20px;
+	margin-top:10px;
+}
+.self-picture{
+	margin-left:40px;
+	margin-top:30px;
+}
+.content{
+	width:300px;
+	font-size:25px;
+	margin-left:40px;
+}
+.footer2 {
+	background-color: #434343;
+	width: 100%;
+	height: 65px;
+}
+
+.footer2Left {
+	height: 100%;
+	width: 10%;
+	float: left;
+	text-align: left;
+	margin-top: 10xp;
+}
+
+.footer2Right {
+	height: 100%;
+	width: 80%;
+	float: left;
+	text-align: left;
+	margin-top: 15px;
+}
+
+.footer2right p {
+	color: #cccccc;
+	font-size: 12px;
+	margin-top: 2px;
+	margin-bottom: 3px;
+}

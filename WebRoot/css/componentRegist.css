@@ -1,0 +1,136 @@
+/* Header */
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+.top{
+	border:0px solid red;
+	height:65px;
+}
+.top1{
+	border:0px solid red;
+	margin-left:70px;
+	margin-top:5px;
+	
+}
+.top2{
+	border:0px solid red;
+	margin-left:146px;
+	margin-top:-45px;
+	font-size:28px;
+}
+.top3{
+	border:0px solid red;
+	text-align:right;
+	margin-top:-16px;
+	padding-right:160px;
+	font-size:14px;
+	color:blue;
+}
+.demo-1 .large-header {
+	background-image: url('../img/demo-1-bg.jpg');
+}
+.logo_box{
+	width: 600px;
+	height: 600px;
+	color: #EEE;
+	position: absolute;
+	left: 50%;
+	top:50%;
+	margin-left: -250px;
+	margin-top: -330px;
+}
+
+.logo_box h3{
+	text-align: center;
+	height: 20px;
+	font: 30px "microsoft yahei",Helvetica,Tahoma,Arial,"Microsoft jhengHei",sans-serif;
+	color: #FFFFFF;
+	height: 20px;
+	line-height: 20px;
+	padding:0 300px 35px 0; 
+}
+.forms{
+	width: 500px;
+	height: 500px;
+	align:center;
+}
+
+lable{
+	width: 100px;
+	height: 25px;	
+	display:inline-block;
+	text-align:right;
+}
+.error{
+     color:red; 
+     }
+.right{
+	clolor:white;
+}
+.select{
+	width: 70px;
+	height: 25px;
+	text-align:center;
+	outline:none;
+	background:#999999;
+	font: 12px "microsoft yahei",Helvetica,Tahoma,Arial,"Microsoft jhengHei";
+	dispaly:inlline-block;
+	border-radius: 10px;
+	position: relative;
+	border: rgba(255,255,255,0.2) 1px solid !important;
+	padding-left:5px;
+}
+.text{
+	width: 200px;
+	height: 35px;
+	outline:none;
+	text-align:center;
+	font: 14px "microsoft yahei",Helvetica,Tahoma,Arial,"Microsoft jhengHei";
+	background: none;
+	line-height: 46px;
+	dispaly:inlline-block;
+	border-radius: 20px;
+	position: relative;
+	border: rgba(255,255,255,0.2) 2px solid !important;
+}
+.textServe{
+	font: 15px "microsoft yahei",Helvetica,Tahoma,Arial,"Microsoft jhengHei";
+}
+#checkBtn1{
+	width: 70px;
+	height: 25px;
+	text-align:center;
+	background:#999999;
+	font: 12px "microsoft yahei",Helvetica,Tahoma,Arial,"Microsoft jhengHei";
+	dispaly:inlline-block;
+	border-radius: 10px;
+	position: relative;
+	border: rgba(255,255,255,0.2) 1px solid !important;
+}
+#checkBtn2{
+	width: 70px;
+	height: 25px;
+	text-align:center;
+	background:#999999;
+	font: 12px "microsoft yahei",Helvetica,Tahoma,Arial,"Microsoft jhengHei";
+	dispaly:inlline-block;
+	border-radius: 10px;
+	position: relative;
+	border: rgba(255,255,255,0.2) 1px solid !important;
+}
+.txt{
+	color:red;
+	font-size:14px;
+}
+/*注册按钮*/
+.mb2{
+	margin-bottom: 20px;
+	width:300px;
+	padding-left:100px;
+}

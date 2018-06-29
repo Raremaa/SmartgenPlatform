@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>regist</title>
+<link rel="stylesheet" type="text/css" href="css/normalizeRegist.css" />
+<link rel="stylesheet" type="text/css" href="css/demoRegist.css" />
+<link rel="stylesheet" type="text/css" href="css/componentRegist.css" />
+
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"
+	type="text/css"></link>
+<script type="text/javascript" src="easyui/jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+<link rel="Bookmark" href="/SmartgenPlatform/img/logoSmall.png" />
+<link rel="Shortcut Icon" href="/SmartgenPlatform/img/logoSmall.png">
+
+</head>
+<body>
+	<!-- 顶部top -->
+	<div class="demo-1">
+		<div class="top">
+			<div class="top1">
+				<img src="img/logo.png" style="width:60px;height:60px;" />
+			</div>
+			<div class="top2">众智协作平台</div>
+			<div class="top3">
+				<a id="a_login" href="/SmartgenPlatform/login.html">登录</a>
+				&nbsp;&nbsp;|&nbsp;&nbsp; <a id="a_regist" href="/SmartgenPlatform/regist.html">注册</a>
+			</div>
+		</div>
+	</div>
+	<div class="demo-1">
+		<div class="content">
+
+			<div id="large-header" class="large-header">
+				<canvas id="demo-canvas"></canvas>
+
+				<div class="logo_box">
+					<span id="message"></span>
+					<ul id="myTab" class="nav nav-tabs"
+						style="padding-top:50px;width:400px;">
+						<li class="active" style="padding-left:50px;"><a href="#home"
+							data-toggle="tab"style="font-size:18px;"> 我是个人用户 </a></li>
+						<li style="padding-left:50px;"><a href="#ios"
+							data-toggle="tab"style="font-size:18px;">我是企业用户</a>
+						</li>
+					</ul>
+					<div id="myTabContent" class="tab-content">
+						<div class="tab-pane fade in active" id="home"
+							style="padding-top:30px;">
+							<!--  onsubmit="return checkForm()"action="userAdd"-->
+							<form method="post" 
+								>
+								<div class="block1" style="margin-bottom:15px;">
+									<lable style="font-size:18px;">用&nbsp;户&nbsp;&nbsp;名：</lable>
+									<input id="User_name" class="text" name="User_name"
+										style="color: #FFFFFF !important" type="text"
+										placeholder="请输入账户" onblur="test1();" /> <span id="text1"
+										class="txt"></span>
+								</div>
+								<div class="block1" style="margin-bottom:15px;">
+									<lable style="font-size:18px;">性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别：</lable>
+									<input type="radio" checked name="User_sex" value="0" />男&nbsp;&nbsp;
+									<input type="radio" name="User_sex" value="1" />女
+								</div>
+								<div class="block1" style="margin-bottom:15px;">
+									<lable style="font-size:18px;">所&nbsp;在&nbsp;&nbsp;地：</lable>
+									<select id="User_locationProvince" name="User_locationProvince"
+										onchange="change1();" class="select">
+										<option>请选择</option>
+										<option>江西省</option>
+										<option>湖北省</option>
+										<option>湖南省</option>
+									</select> <select id="User_locationCity" name="User_locationCity"
+										class="select">
+										<option>请选择</option>
+									</select>
+								</div>
+								<div class="block1" style="margin-bottom:15px;">
+									<lable style="font-size:18px;">设置密码：</lable>
+									<input id="User_password" name="User_password" class="text"
+										style="color: #FFFFFF !important" type="password"
+										onblur="test2();" /> <span style="color:red">*</span> <span
+										style="font-size:14px;" id="text2">6-20个字符，区分大小写</span>
+								</div>
+								<div class="block1" style="margin-bottom:15px;">
+									<lable style="font-size:18px;">确认密码：</lable>
+									<input id="User_rePassword" class="text"
+										style="color: #FFFFFF !important" type="password"
+										onblur="test3();" /> <span id="text3" class="txt"></span>
+								</div>
+								<div class="block1" style="margin-bottom:15px;">
+									<lable style="font-size:18px;">手机号码：</lable>
+									<input id="User_phone" class="text" name="User_phone"
+										style="color: #FFFFFF !important" type="text"
+										onblur="test4();" /> <span style="color:red">*</span> <span
+										style="font-size:14px;" id="text4">请输入正确的手机号</span>
+								</div>
+								<div class="block1" style="margin-bottom:15px;">
+									<lable style="font-size:18px;">验&nbsp;证&nbsp;&nbsp;码：</lable>
+									<input class="text" style="color: #FFFFFF !important"
+										placeholder="请输入验证码" type="text" /> <input type="button"
+										id="checkBtn1" value="获取验证码" onclick="d1(60);" />
+								</div>
+								<div class="block1"
+									style="padding-left:50px;margin-bottom:15px;">
+									<input style="color: #FFFFFF !important" id="check"
+										type="checkbox" checked="true" /> <span class="textServe">
+										我同意"<span style="color:#169BD5">服务条款</span>"和"<span
+										style="color:#169BD5">法律声明</span>"</span>
+								</div>
+								<div class="mb2">
+									<input id="registBtn" type="button" value="注册"
+										style="background:#169bd5;font-size:25px;width:150px;height:50px;margin-left:0px;border-radius:20px;border:1px solid #169bd5;color:white;" />
+
+								</div>
+							</form>
+
+						</div>
+
+						<div class="tab-pane fade in " id="ios" style="padding-top:30px;">
+
+						</div>
+
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /container -->
+	<script src="js/TweenLite.min.js"></script>
+	<script src="js/EasePack.min.js"></script>
+	<script src="js/rAF.js"></script>
+	<script src="js/demo-1.js"></script>
+	<script type="text/javascript" src="js/regist.js" charset="utf-8"></script>
+	<script src="layui/layui.js"></script>
+	
+	
+</body>
+</html>

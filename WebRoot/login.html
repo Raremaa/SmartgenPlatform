@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>login</title>
+<link rel="stylesheet" type="text/css" href="css/normalizeLogin.css" />
+<link rel="stylesheet" type="text/css" href="css/demoLogin.css" />
+<!--必要样式-->
+<link rel="stylesheet" type="text/css" href="css/componentLogin.css" />
+
+<script type="text/javascript" src="easyui/jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+<link rel="Bookmark" href="/SmartgenPlatform/img/logoSmall.png" />
+<link rel="Shortcut Icon" href="/SmartgenPlatform/img/logoSmall.png">
+
+<!--[if IE]>
+<script src="js/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+    <!-- 顶部top -->
+  <div class="container demo-1">
+      <div class="top">
+        <div class="top1">
+           <img src="img/logo.png"style="width:60px;height:60px;"/>
+        </div>
+        <div class="top2">
+            众智协作平台
+        </div>
+        <div class="top3">
+             <a id="a_login" href="/SmartgenPlatform/login.html">登录</a>
+             &nbsp;&nbsp;|&nbsp;&nbsp;还没有注册，
+             <a id="a_regist" href="/SmartgenPlatform/regist.html">点击注册</a> 
+        </div>
+     </div>
+  </div>
+		<div class="container demo-1">
+			<div class="content">
+			    
+				<div id="large-header" class="large-header">
+					<canvas id="demo-canvas"></canvas>
+					
+					<div class="logo_box">
+					<p>每个人天生都是创作家</p>
+	            <p>来众智，找有趣的人做有趣的事</p><br/>
+						
+						<form  class="forms"name="f" method="post">
+						<h3>众智欢迎你</h3>
+						    <p id="errorUserContent"style="color:red;font-size:16px;margin:20px 0px 0px 0px;"></p>
+							<div class="input_outer"style="margin-top:10px;margin-left:25px;margin-bottom:30px">
+								<span class="u_user"></span>
+								<input id="userPhone"name="userPhone" class="text" style="color: #FFFFFF !important" type="text" placeholder="请输入手机号">
+							</div>
+							
+							<div class="input_outer"style="margin-top:0px;margin-left:25px;margin-bottom:20px">
+								<span class="us_uer"></span>
+								<input id="userPassword"name="userPassword" class="text" style="color: #FFFFFF !important;margin-left:-85px; position:absolute; z-index:100;"value="" type="password" placeholder="请输入密码">
+							</div>
+							<div style="margin-bottom:20px;">
+							  <input type="radio" name="authority" value="1"style="margin-left:-20px;margin-right:10px;"><span style="font-size:17px;">普通用户</span>
+                              <input type="radio" name="authority" value="0"style="margin-left:20px;margin-right:10px;"><span style="font-size:17px;">专家</span>					
+							</div>
+							<div class="mb2">
+							   <input id="loginBtn"type="button"value="登录"style="background:#169bd5;width:120px;height:50px;margin-left:10px;border-radius:20px;border:1px solid #169bd5;color:white;"/>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div><!-- /container -->
+		<script src="js/TweenLite.min.js"></script>
+		<script src="js/EasePack.min.js"></script>
+		<script src="js/rAF.js"></script>
+		<script src="js/demo-1.js"></script>
+		
+		<script type="text/javascript" src="js/login.js"></script>
+		<script src="layui/layui.js"></script>
+		<script type="text/javascript">
+		  
+		</script>
+		
+	</body>
+</html>

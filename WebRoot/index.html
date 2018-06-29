@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+<head>
+<title>众智协作平台</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- js -->
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript"
+	src="easyui/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<!--//js -->
+<!-- css -->
+<link href="css/indexStyle.css" rel="stylesheet"
+	type="text/css" media="all" />
+<link rel="stylesheet"
+	href="bootstrap/css/bootstrap.min.css">
+<!-- //css -->
+
+<link rel="Bookmark" href="/SmartgenPlatform/img/logoSmall.png" />
+<link rel="Shortcut Icon" href="/SmartgenPlatform/img/logoSmall.png">
+
+</head>
+<body style="height: 100%;">
+	<div class="agileits_main">
+		<!-- header -->
+		<div class="w3_agile_logo">
+			<h1 class="text-center">
+				<img src="/SmartgenPlatform/img/logoBig.png"
+					style="width: 200px;height: 200px;"> <img
+					src="/SmartgenPlatform/img/logoWord.png">
+			</h1>
+		</div>
+		<!-- banner -->
+		<div class="w3_banner">
+			<div class="container">
+				<div class="slider" id="slider">
+					<div class="callbacks_container">
+						<ul class="rslides callbacks callbacks1" id="slider4">
+							<li>
+								<div class="banner_text_小贝壳网站模板">
+									<h3 style="color: black">众智协作平台</h3>
+									<span> </span>
+									<p style="color: black">惟创意和兴趣不可辜负！</p>
+								</div>
+							</li>
+							<li>
+								<div class="banner_text_小贝壳网站模板">
+									<h3 style="color: black">众智兴趣协作</h3>
+									<span> </span>
+									<p style="color: black">与有趣的人做有趣的事</p>
+								</div>
+							</li>
+							<li>
+								<div class="banner_text_小贝壳网站模板">
+									<h3 style="color: black">众智创意协作</h3>
+									<span> </span>
+									<p style="color: black">每一个创意都值得被重视</p>
+								</div>
+							</li>
+						</ul>
+
+
+					</div>
+					<script src="js/responsiveslides.min.js"></script>
+					<script>
+						// You can also use "$(window).load(function() {"
+						$(function() {
+							// Slideshow 4
+							$("#slider4").responsiveSlides({
+								auto : true,
+								pager : true,
+								nav : true,
+								speed : 500,
+								namespace : "callbacks",
+								before : function() {
+									$('.events').append("<li>before event fired.</li>");
+								},
+								after : function() {
+									$('.events').append("<li>after event fired.</li>");
+								}
+							});
+					
+						});
+					</script>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- 导航栏   -->
+	<nav class="navbar navbar-default navbar-fixed-bottom"
+		role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand"
+					style="width: 300px;height: 90px;padding: 10px;"><img
+					src="/SmartgenPlatform/img/narbar.png"></a>
+
+			</div>
+			<div>
+				<ul class="nav navbar-nav">
+					<li style="padding: 28px;">
+						<div class="btn-group dropup">
+							<button type="button" class="btn btn-primary dropdown-toggle"
+								data-toggle="dropdown" style="font-size: 20px">
+								&nbsp;&nbsp;发布&nbsp;&nbsp; <span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="/SmartgenPlatform/creativeProjectPublic/creprojectPublic.jsp">创意发布</a></li>
+								<li class="divider"></li>
+								<li><a href="/SmartgenPlatform/interestingProjectPublic/inprojectPublic.jsp">兴趣发布</a></li>
+							</ul>
+						</div>
+					</li>
+					<li style="font-size:20px;padding: 25px;"><a href="/SmartgenPlatform/homePage/homePage.jsp">首页</a></li>
+					<li style="font-size:20px;padding: 25px;"><a href="/SmartgenPlatform/interestingProject/interestingProject.jsp">兴趣协作市场</a></li>
+					<li style="font-size:20px;padding: 25px;"><a href="/SmartgenPlatform/creativeProject/creativeProject.jsp">创意孵化市场</a></li>
+					<li style="font-size:20px;padding: 25px;"><a href="/SmartgenPlatform/product/product.jsp">产品系列</a></li>
+					<li style="font-size:20px;padding: 2px;"><a href="/SmartgenPlatform/regist.html"><img src="/SmartgenPlatform/img/signup.png" style="width: 70px;height: 70px;"></a></li>
+					<li style="font-size:20px;padding: 2px;"><a href="/SmartgenPlatform/login.html"><img src="/SmartgenPlatform/img/login.png" style="width: 70px;height: 70px;"></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- //导航栏   -->
+</body>
+</html>

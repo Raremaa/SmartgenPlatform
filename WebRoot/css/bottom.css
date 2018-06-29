@@ -1,0 +1,95 @@
+.footer1 {
+	background-color: #5e5e5e;
+	width: 100%;
+	height: 220px;
+}
+
+.footer1Left {
+	height: 100%;
+	width: 50%;
+	float: left;
+}
+
+.footer1Right {
+	height: 100%;
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+.lefttop {
+	margin-left: 10px;
+	margin-top: -15px;
+}
+
+.logoContent {
+	display: inline-block;
+	font-size: 25px;
+	color: #ebebeb;
+	padding-top: 30px;
+}
+
+.footer1Content {
+	font-size: 14px;
+	color: #cccccc;
+	margin-top: -2px;
+}
+
+.righttop {
+	margin-top: 30px;
+}
+
+.righttop a {
+	font-size:14px;
+	text-decoration: none;
+	color: #cccccc;
+}
+
+.righttop a:hover {
+	color: #00CCFF;
+	text-decoration: none;
+}
+
+.righttop a:link {
+	text-decoration: none;
+}
+
+.righttop a:visited {
+	text-decoration: none;
+}
+
+.righttop p {
+	color: #c9c9c9;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+
+.footer2 {
+	background-color: #434343;
+	width: 100%;
+	height: 65px;
+}
+
+.footer2Left {
+	height: 100%;
+	width: 10%;
+	float: left;
+	text-align: left;
+	margin-top: 10xp;
+}
+
+.footer2Right {
+	height: 100%;
+	width: 80%;
+	float: left;
+	text-align: left;
+	margin-top: 15px;
+}
+
+.footer2right p {
+	color: #cccccc;
+	font-size: 12px;
+	margin-top: 2px;
+	margin-bottom: 3px;
+}
